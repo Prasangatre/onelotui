@@ -3,6 +3,7 @@ import FinanceSection from "@/components/carFinance/page";
 import ConnectedSection from "@/components/connected/page";
 import Accordion from "@/components/faqs/page";
 import FeatureSection from "@/components/features/page";
+import Footer from "@/components/getStarted/page";
 import HeroSection from "@/components/hero/page";
 import NavBar from "@/components/navBar/page";
 import TestimonialSection from "@/components/testimonial/page";
@@ -18,7 +19,8 @@ export default function Home() {
       <FeatureSection />
       <TestimonialSection />
       <ConnectedSection />
-      <Accordion/>
+      <Accordion />
+      <Footer/>
    </div>
   );
 }
