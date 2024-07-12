@@ -1,15 +1,21 @@
 import Image from "next/image";
 import React from "react";
 import CustomButton from "../Button/customButton/page";
+import { GiConfirmed } from "react-icons/gi";
 
 const FinanceSection = () => {
   return (
-    <div className="flex flex-col gap-4">
-      <div className="bg-yellow-100 flex w-full gap-6 justify-between items-start">
-        <div>
-          <Image src={"/carfinancing.png"} height={1100} width={1500} />
+    <div className="flex flex-col gap-6">
+      <div className="flex px-2 flex-col md:flex-row md:px-0  w-full gap-6 justify-between items-start">
+        <div className="order-2 md:order-1">
+          <Image
+            src={"/carfinancing.png"}
+            height={800}
+            width={900}
+            alt="carfinance"
+          />
         </div>
-        <div className="flex flex-col gap-8">
+        <div className="flex md:order-2 md:pr-16 flex-col gap-6">
           <div className="text-2xl text-[#000000] font-bold">Car Financing</div>
           <div className="text-lg text-[#000000] font-medium">
             Dealer Inventory Loans
@@ -22,24 +28,31 @@ const FinanceSection = () => {
           <div className="h-[1px] bg-[#e5e7eb]" />
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
-              <div>Ii</div>
+              <div>
+                <GiConfirmed color="#c3b6d1" fontSize={"1rem"} />
+              </div>
               <div className="text-lg text-[#000000] font-medium">
                 Interest as low as 1.75% per month with daily calculation of
                 interest
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <div>Ii</div>
+              <div>
+                {" "}
+                <GiConfirmed color="#c3b6d1" fontSize={"1rem"} />
+              </div>
               <div className="text-lg text-[#000000] font-medium">
-                Interest as low as 1.75% per month with daily calculation of
-                interest
+                Financing up to 70% of the vehicle purchase
               </div>
             </div>{" "}
             <div className="flex items-center gap-2">
-              <div>Ii</div>
+              <div>
+                {" "}
+                <GiConfirmed color="#c3b6d1" fontSize={"1rem"} />
+              </div>
               <div className="text-lg text-[#000000] font-medium">
-                Interest as low as 1.75% per month with daily calculation of
-                interest
+                Financing period up to 90 days with flexible repayment schedule
+                at any point
               </div>
             </div>
           </div>
@@ -53,8 +66,8 @@ const FinanceSection = () => {
           </div>
         </div>
       </div>
-      <div className="bg-yellow-100 flex w-full gap-6 justify-between items-center">
-        <div className="flex px-6 flex-col gap-6">
+      <div className=" flex flex-col  md:flex-row md:px-0 w-full gap-6 justify-between items-center">
+        <div className="flex px-2 md:px-16 flex-col gap-6">
           <div className="text-2xl text-[#000000] font-bold">
             Dealership Management System
           </div>
@@ -66,7 +79,10 @@ const FinanceSection = () => {
           <div className="h-[1px] bg-[#e5e7eb]" />
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
-              <div>Ii</div>
+              <div>
+                {" "}
+                <GiConfirmed color="#c3b6d1" fontSize={"1rem"} />
+              </div>
               <div className="text-lg text-[#000000] font-medium">
                 <span className="text-[#000] font-bold">
                   Inventory Management:
@@ -76,23 +92,29 @@ const FinanceSection = () => {
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <div>Ii</div>
+              <div>
+                {" "}
+                <GiConfirmed color="#c3b6d1" fontSize={"1rem"} />
+              </div>
               <div className="text-lg text-[#000000] font-medium">
-                <span className="text-[#000] font-bold">
-                  Inventory Management:
-                </span>{" "}
-                Track all details about your cars and sales in one place - from
-                car details to buyers. All you need to now in one place
+                <span className="text-[#000] font-bold">Marketing Tools:</span>{" "}
+                Promote your cars across all the different platforms. Write a
+                marketing text and upload on Facebook Marketplace, Groups, Pages
+                and Instagram with a single click of a button
               </div>
             </div>{" "}
             <div className="flex items-center gap-2">
-              <div>Ii</div>
+              <div>
+                {" "}
+                <GiConfirmed color="#c3b6d1" fontSize={"1rem"} />
+              </div>
               <div className="text-lg text-[#000000] font-medium">
                 <span className="text-[#000] font-bold">
-                  Inventory Management:
+                  Marketing Insights (Coming Soon):
                 </span>{" "}
-                Track all details about your cars and sales in one place - from
-                car details to buyers. All you need to now in one place
+                Get insights on prices and volumes for all cars in the market.
+                We provide you all the date by combining data from various
+                sources with a single click of a button.
               </div>
             </div>
           </div>
@@ -105,7 +127,12 @@ const FinanceSection = () => {
           </div>
         </div>
         <div>
-          <Image src={"/dmscontent.png"} height={1100} width={1500} />
+          <Image
+            alt="content"
+            src={"/dmscontent.png"}
+            height={400}
+            width={800}
+          />
         </div>
       </div>
     </div>
