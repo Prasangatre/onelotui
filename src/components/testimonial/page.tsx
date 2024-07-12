@@ -5,7 +5,7 @@ import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
 
 const TestimonialSection = () => {
   return (
-    <div className=" px-10 md:px-2 flex flex-col justify-center items-center py-6 gap-4 ">
+    <div className="bg-[#f9fafb] px-10 md:px-2 flex flex-col justify-center items-center py-6 gap-4 ">
       <div className="font-semibold text-lg">Testimonials</div>
       <div>
         <Image
@@ -29,10 +29,10 @@ const TestimonialSection = () => {
       </div>
       <div className="flex items-center gap-6">
         <div>
-          <FaLongArrowAltLeft fontSize={"1.3rem"} />
+          <FaLongArrowAltLeft fontSize={"1.3rem"} color="#707070" />
         </div>
         <div>
-          <FaLongArrowAltRight  fontSize={"1.3rem"} />
+          <FaLongArrowAltRight  fontSize={"1.3rem"} color="#707070" />
         </div>
       </div>
     </div>

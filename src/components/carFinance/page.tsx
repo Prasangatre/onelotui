@@ -5,9 +5,9 @@ import { GiConfirmed } from "react-icons/gi";
 
 const FinanceSection = () => {
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col  bg-[#f9fafb]">
       <div className="flex px-2 flex-col md:flex-row md:px-0  w-full gap-6 justify-between items-start">
-        <div className="order-2 md:order-1">
+        <div className="order-2 md:order-1 md:py-6">
           <Image
             src={"/carfinancing.png"}
             height={800}
@@ -15,7 +15,7 @@ const FinanceSection = () => {
             alt="carfinance"
           />
         </div>
-        <div className="flex md:order-2 md:pr-16 flex-col gap-6">
+        <div className="flex md:order-2 md:pr-16 flex-col gap-6 md:py-6">
           <div className="text-2xl text-[#000000] font-bold">Car Financing</div>
           <div className="text-lg text-[#000000] font-medium">
             Dealer Inventory Loans
@@ -62,12 +62,12 @@ const FinanceSection = () => {
             your lot and increase your profits
           </div>
           <div className="w-fit">
-            <CustomButton textToDisplay={"View Loans"} />
+            <CustomButton textToDisplay={"View Loans"} toShowIcon={true} />
           </div>
         </div>
       </div>
-      <div className=" flex flex-col  md:flex-row md:px-0 w-full gap-6 justify-between items-center">
-        <div className="flex px-2 md:px-16 flex-col gap-6">
+      <div className=" flex flex-col mt-16 md:flex-row md:px-0 w-full gap-6 justify-between items-center">
+        <div className="flex px-2 md:px-16 md:py-6 flex-col gap-6">
           <div className="text-2xl text-[#000000] font-bold">
             Dealership Management System
           </div>
@@ -80,7 +80,6 @@ const FinanceSection = () => {
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
               <div>
-                {" "}
                 <GiConfirmed color="#c3b6d1" fontSize={"1rem"} />
               </div>
               <div className="text-lg text-[#000000] font-medium">
@@ -123,7 +122,7 @@ const FinanceSection = () => {
             Sign-up OneLot's dealer platform today, and your cars easier.
           </div>
           <div className="w-fit">
-            <CustomButton textToDisplay={"Explore Now"} />
+            <CustomButton textToDisplay={"Explore Now"} toShowIcon={true} />
           </div>
         </div>
         <div>

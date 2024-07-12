@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="flex mt-10 flex-col gap-4 items-center justify-center">
       <div className="font-bold text-[#000] text-xl">Get started today</div>
-      <div className="text-[#6B7280] px-8 text-base text-center font-medium">
+      <div className="text-[#6B7280] px-8 text-base text-center font-medium md:line-clamp-2 md:w-[40%]">
         We look forward to serving the needs of used car dealers across the
         Philippines and helping them thrive in this dynamic market.
       </div>

@@ -33,7 +33,7 @@ const Accordion: React.FC = () => {
   };
 
   return (
-    <div className="max-w-2xl px-6  md:px-0 mx-auto mt-8 space-y-4">
+    <div className="max-w-2xl px-6  md:px-0 mx-auto mt-8 space-y-4 bg-[#f9fafb]">
       <h2 className="text-3xl font-bold text-center mb-8 text-[#000]">
         Frequently Asked Questions
       </h2>

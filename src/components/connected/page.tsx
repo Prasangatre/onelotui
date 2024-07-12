@@ -8,7 +8,7 @@ const ConnectedSection = () => {
   return (
     <div className=" flex flex-col gap-6 justify-center items-center py-8">
       <div className="font-bold text-xl">Stay connected</div>
-      <div className="text-[#000] text-base text-center px-6">
+      <div className="text-[#000] text-base text-center md:line-clamp-2 md:w-[40%] px-6">
         Follow OneLot on our Facebook and Instagram page and stay up to date
         with our most recent offers, updates and new product features
       </div>
@@ -25,22 +25,10 @@ const ConnectedSection = () => {
           </div>
           <div> Follow us on Instagram</div>
         </div>
-          </div>
-          <div>
-              <div className="flex items-center gap-4">
-                  {/* <div>
-                  <Image  src={'/fbpost.png'} height={"400"} width={'460'}/>
-
-                  </div>
-                  <div>
-                  <Image src={'/fbpost.png'} height={"400"} width={'460'}/>
-
-                  </div> */}
-
-              </div>
-              <InfiniteHorizontalScroll/>
-
-          </div>
+      </div>
+      <div>
+        <InfiniteHorizontalScroll />
+      </div>
     </div>
   );
 };
