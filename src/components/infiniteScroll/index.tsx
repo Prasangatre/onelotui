@@ -7,7 +7,7 @@ const images = ["/fbpost.png", "/fbpost.png", "/fbpost.png", "/fbpost.png"];
 
 const InfiniteScroll = () => {
   return (
-    <div className="w-full flex justify-center items-center overflow-hidden relative">
+    <div className="w-full mt-2 flex justify-center items-center overflow-hidden relative">
       <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent z-10"></div>
       <div className="flex w-full md:w-[70%] gap-4 ">
         {[...images].map((src, index) => (
