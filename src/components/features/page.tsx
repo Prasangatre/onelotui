@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineStock } from "react-icons/ai";
 import { BiLock } from "react-icons/bi";
 import { BsLightningChargeFill, BsTruck } from "react-icons/bs";
 import { FaLock, FaThumbsUp } from "react-icons/fa";
@@ -6,23 +7,29 @@ import { GiGrowth } from "react-icons/gi";
 
 const FeatureSection = () => {
   return (
-    <div className="bg-pink-100 flex justify-center items-center w-full">
-      <div className="flex flex-col bg-slate-400 items-center justify-center py-10 w-full gap-4">
+    <div className=" flex justify-center items-center w-full">
+      <div className="flex flex-col  items-center justify-center py-10 w-full gap-4">
         <div className="text-2xl font-bold">Why OneLot</div>
-        <div className="flex gap-4 flex-wrap">
-          <div className="border-[1px] border-solid border-gray-200 min-h-[10vh] shadow-md rounded-md flex flex-col gap-2 w-[20%] items-center justify-center  bg-white py-6 px-6">
-            <div className="bg-[#efe6fa] px-4 py-4 rounded-md">
-              <FaLock color="#52028d" fontSize={"1.2rem"} />
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-2">
+          <div className="border-[1px]  border-solid border-gray-200 shadow-md rounded-md flex flex-col gap-2 items-center justify-center  bg-white py-6 px-6">
+            <div className="w-full flex items-center justify-center  min-h-20">
+              <div className="bg-[#efe6fa] px-4 w-[20%] py-4 rounded-md">
+                <FaLock color="#52028d" fontSize={"1.2rem"} />
+              </div>
             </div>
+
             <div className="text-lg text-[#000] font-semibold ">Trust</div>
             <div className="text-base text-[#6b7280] font-medium text-center ">
               Regulated by Securities and Exchange Commission (SEC) Philippines
             </div>
           </div>
-          <div className="border-[1px] border-solid border-gray-200 min-h-[10vh] shadow-md rounded-md flex flex-col gap-2 w-[20%] items-center justify-center  bg-white py-6 px-6">
-            <div className="bg-[#efe6fa] px-4 py-4 rounded-md">
-              <GiGrowth color="#52028d" fontSize={"1.2rem"} />
+          <div className="border-[1px] border-solid border-gray-200 shadow-md rounded-md flex flex-col gap-2  items-center justify-center  bg-white py-6 px-6">
+            <div className="w-full flex items-center justify-center  min-h-20">
+              <div className="bg-[#efe6fa] px-4 w-[20%] py-4 rounded-md">
+                <AiOutlineStock color="#52028d" fontSize={"1.2rem"} />
+              </div>
             </div>
+
             <div className="text-lg text-[#000] font-semibold ">
               High Amount
             </div>
@@ -30,26 +37,32 @@ const FeatureSection = () => {
               Get the highest loan amounts compared to other banks and lenders
             </div>
           </div>
-          <div className="border-[1px] border-solid border-gray-200 min-h-[10vh] shadow-md rounded-md flex flex-col gap-2 w-[20%] items-center justify-center  bg-white py-6 px-6">
-            <div className="bg-[#efe6fa] px-4 py-4 rounded-md">
-              <BsLightningChargeFill color="#52028d" fontSize={"1.2rem"} />
+          <div className="border-[1px] border-solid border-gray-200 shadow-md rounded-md flex flex-col gap-2  items-center justify-center  bg-white py-6 px-6">
+            <div className="w-full bg-gray-600 flex items-center justify-center  min-h-20">
+              <div className="bg-[#efe6fa] px-4 w-[20%] py-4 rounded-md">
+                <BsLightningChargeFill color="#52028d" fontSize={"1.2rem"} />
+              </div>
             </div>
+
             <div className="text-lg text-[#000] font-semibold ">Fast</div>
             <div className="text-base text-[#6b7280] font-medium text-center ">
               Get the money within a few hours on the same day
             </div>
           </div>
 
-          <div className="border-[1px] border-solid border-gray-200 min-h-[10vh] shadow-md rounded-md flex flex-col gap-2 w-[20%] items-center justify-center  bg-white py-6 px-6">
-            <div className="bg-[#efe6fa] px-4 py-4 rounded-md">
-              <BsTruck color="#52028d" fontSize={"1.2rem"} />
+          <div className="border-[1px] border-solid border-gray-200  shadow-md rounded-md flex flex-col gap-2  items-center justify-center  bg-white py-6 px-6">
+            <div className="w-full  bg-gray-100 flex items-center justify-center  min-h-20">
+              <div className="bg-[#efe6fa] px-4 w-[20%] py-4 rounded-md">
+                <BsTruck color="#52028d" fontSize={"1.2rem"} />
+              </div>
             </div>
+
             <div className="text-lg text-[#000] font-semibold ">Flexible</div>
             <div className="text-base text-[#6b7280] font-medium text-center ">
               Loans are tailored to your needs
             </div>
           </div>
-          <div className="border-[1px] border-solid border-gray-200 min-h-[10vh] shadow-md rounded-md flex flex-col gap-2 w-[20%] items-center justify-center  bg-white py-6 px-6">
+          <div className="border-[1px] border-solid border-gray-200  shadow-md rounded-md flex flex-col gap-2  items-center justify-center  bg-white py-6 px-6">
             <div className="bg-[#efe6fa] px-4 py-4 rounded-md">
               <FaThumbsUp color="#52028d" fontSize={"1.2rem"} />
             </div>
