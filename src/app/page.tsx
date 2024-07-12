@@ -1,6 +1,7 @@
 import About from "@/components/about/page";
 import FinanceSection from "@/components/carFinance/page";
 import ConnectedSection from "@/components/connected/page";
+import Accordion from "@/components/faqs/page";
 import FeatureSection from "@/components/features/page";
 import HeroSection from "@/components/hero/page";
 import NavBar from "@/components/navBar/page";
@@ -16,7 +17,8 @@ export default function Home() {
       <FinanceSection />
       <FeatureSection />
       <TestimonialSection />
-      <ConnectedSection/>
+      <ConnectedSection />
+      <Accordion/>
    </div>
   );
 }
