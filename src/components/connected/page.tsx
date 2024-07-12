@@ -5,13 +5,13 @@ import { FaFacebook } from "react-icons/fa";
 
 const ConnectedSection = () => {
   return (
-    <div className="bg-pink-100 flex flex-col gap-6 justify-center items-center py-8">
+    <div className=" flex flex-col gap-6 justify-center items-center py-8">
       <div className="font-bold text-xl">Stay connected</div>
-      <div className="text-[#000] text-base line-clamp-3">
+      <div className="text-[#000] text-base text-center px-6">
         Follow OneLot on our Facebook and Instagram page and stay up to date
         with our most recent offers, updates and new product features
       </div>
-      <div className="flex items-center gap-2">
+      <div className="flex flex-col md:flex-row items-center gap-2">
         <div className="flex items-center gap-2 px-4 py-2 rounded-md border-solid border-[1px]  border-[#000000]">
           <div>
             <FaFacebook />
@@ -28,7 +28,7 @@ const ConnectedSection = () => {
           <div>
               <div className="flex items-center gap-4">
                   <div>
-                  <Image src={'/fbpost.png'} height={"400"} width={'460'}/>
+                  <Image  src={'/fbpost.png'} height={"400"} width={'460'}/>
 
                   </div>
                   <div>

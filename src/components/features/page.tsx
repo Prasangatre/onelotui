@@ -38,7 +38,7 @@ const FeatureSection = () => {
             </div>
           </div>
           <div className="border-[1px] border-solid border-gray-200 shadow-md rounded-md flex flex-col gap-2  items-center justify-center  bg-white py-6 px-6">
-            <div className="w-full bg-gray-600 flex items-center justify-center  min-h-20">
+            <div className="w-full  flex items-center justify-center  min-h-20">
               <div className="bg-[#efe6fa] px-4 w-[20%] py-4 rounded-md">
                 <BsLightningChargeFill color="#52028d" fontSize={"1.2rem"} />
               </div>

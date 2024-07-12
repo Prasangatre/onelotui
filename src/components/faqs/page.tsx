@@ -14,14 +14,14 @@ const faqs: FAQItem[] = [
       "What is OneLot? OneLot is a digital auto financier providing short-term loans for used car dealers in the Philippines. Our vision is to empower dealers to expand their inventory, increase sales, and facilitate smoother business operations through tailored financial solutions",
   },
   {
-    question: "How does Next.js differ from React?",
+    question: "What kind of financing does OneLot do?",
     answer:
-      "Next.js is a React framework that provides additional features like server-side rendering, routing, and optimized performance out of the box.",
+      "OneLot offers collateralized short term loans to used car dealers, allowing them to leverage their inventory for growth. We differ from services such as AsiaLink and Global Dominion, since our financing options are for car dealers themselves, not the customers of car dealers.",
   },
   {
-    question: "What are the benefits of using TypeScript?",
+    question: "Is OneLot a bank?",
     answer:
-      "TypeScript adds static typing to JavaScript, which can help catch errors early, improve code quality, and enhance developer productivity.",
+      "No, OneLot is not a traditional bank. We are a dedicated financial institution that understands the unique requirements of used car dealers and offers short-term collateralized lending solutions to address their working capital needs. OneLot Financing Corporation is a duly registered corporate entity and is regulated by the Securities and Exchange Commission (SEC).",
   },
 ];
 
@@ -33,14 +33,14 @@ const Accordion: React.FC = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto mt-8 space-y-4">
+    <div className="max-w-2xl px-6  md:px-0 mx-auto mt-8 space-y-4">
       <h2 className="text-3xl font-bold text-center mb-8 text-[#000]">
         Frequently Asked Questions
       </h2>
       {faqs.map((faq, index) => (
         <div
           key={index}
-          className="border border-b-gray-200 hover:bg-gray-200 rounded-lg shadow-sm"
+          className=" border-b-1 border-gray-200 rounded-lg shadow-sm"
         >
           <button
             className="flex justify-between items-center w-full p-4 text-left bg-white hover:bg-gray-50 focus:outline-none"
@@ -56,7 +56,7 @@ const Accordion: React.FC = () => {
             />
           </button>
           {activeIndex === index && (
-            <div className="p-4 bg-gray-50">
+            <div className="p-4 ">
               <p className="text-[#6B7280]">{faq.answer}</p>
             </div>
           )}
