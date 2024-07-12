@@ -3,6 +3,7 @@ import FinanceSection from "@/components/carFinance/page";
 import FeatureSection from "@/components/features/page";
 import HeroSection from "@/components/hero/page";
 import NavBar from "@/components/navBar/page";
+import TestimonialSection from "@/components/testimonial/page";
 import Image from "next/image";
 
 export default function Home() {
@@ -12,7 +13,8 @@ export default function Home() {
       <HeroSection />
       <About />
       <FinanceSection />
-      <FeatureSection/>
+      <FeatureSection />
+      <TestimonialSection/>
    </div>
   );
 }
