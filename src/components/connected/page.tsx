@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
+import InfiniteHorizontalScroll from "../infiniteScroll";
 
 const ConnectedSection = () => {
   return (
@@ -27,16 +28,18 @@ const ConnectedSection = () => {
           </div>
           <div>
               <div className="flex items-center gap-4">
-                  <div>
+                  {/* <div>
                   <Image  src={'/fbpost.png'} height={"400"} width={'460'}/>
 
                   </div>
                   <div>
                   <Image src={'/fbpost.png'} height={"400"} width={'460'}/>
 
-                  </div>
+                  </div> */}
 
               </div>
+              <InfiniteHorizontalScroll/>
+
           </div>
     </div>
   );
