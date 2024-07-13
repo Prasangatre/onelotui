@@ -38,7 +38,7 @@ const NavBar = () => {
         <div className="flex items-center gap-[1rem]">
           {navLinks.map((data) => {
             return (
-              <div className="hidden  text-base font-medium md:flex ">
+              <div key={data.id} className="hidden  text-base font-medium md:flex ">
                 {data.name}{" "}
               </div>
             );

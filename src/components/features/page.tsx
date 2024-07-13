@@ -48,7 +48,7 @@ const FeatureSection = () => {
         <div className="text-2xl font-bold">Why OneLot</div>
         <div className="grid grid-cols-1 md:grid-cols-5 gap-2 px-4">
           {features.map((feature, index) => (
-            <div className="border-[1px] border-solid border-gray-200  shadow-md rounded-md flex flex-col gap-2 items-center justify-between bg-white py-6 px-4">
+            <div key={index} className="border-[1px] border-solid border-gray-200  shadow-md rounded-md flex flex-col gap-2 items-center justify-between bg-white py-6 px-4">
               <div className="w-full flex items-baseline justify-center ">
                 <div className="bg-[#efe6fa] px-4 flex justify-center items-center md:w-[20%] w-[10%] py-4 rounded-md">
                   <feature.icon color="#52028d" fontSize="1.2rem" />
