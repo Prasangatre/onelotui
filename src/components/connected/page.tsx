@@ -13,13 +13,13 @@ const ConnectedSection = () => {
         with our most recent offers, updates and new product features
       </div>
       <div className="flex flex-col md:flex-row items-center gap-2">
-        <div className="flex items-center gap-2 px-4 py-2 rounded-md border-solid border-[1px]  border-[#000000]">
+        <div className="flex items-center gap-2 px-4 py-2 rounded-md border-solid border-[1px] cursor-pointer border-[#000000]">
           <div>
             <FaFacebook />
           </div>
           <div> Follow us on Facebook</div>
         </div>
-        <div className="flex items-center gap-2 px-4 py-2 rounded-md border-solid border-[1px]  border-[#000000]">
+        <div className="flex items-center gap-2 px-4 py-2 rounded-md border-solid border-[1px] cursor-pointer  border-[#000000]">
           <div>
             <BsInstagram />
           </div>

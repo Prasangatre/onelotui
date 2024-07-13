@@ -50,7 +50,7 @@ const FeatureSection = () => {
           {features.map((feature, index) => (
             <div key={index} className="border-[1px] border-solid border-gray-200  shadow-md rounded-md flex flex-col gap-2 items-center justify-between bg-white py-6 px-4">
               <div className="w-full flex items-baseline justify-center ">
-                <div className="bg-[#efe6fa] px-4 flex justify-center items-center md:w-[20%] w-[10%] py-4 rounded-md">
+                <div className="bg-[#efe6fa] px-2 md:px-4 flex justify-center items-center md:w-[20%] w-[10%] py-4 rounded-md shrink-0">
                   <feature.icon color="#52028d" fontSize="1.2rem" />
                 </div>
               </div>
